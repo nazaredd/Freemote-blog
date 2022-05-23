@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Merriweather';
+}
+
+
+
+.container {
+  width: 900px;
+  height: 100%;
+  margin: 100px auto;
+}
+
+  
+.blog-title {
+     width: 100%;
+  padding-bottom: 40px;
+  border-bottom: 1px solid lightgrey;
+  }
+
+
+.top-post {
+     width: 100%;
+  padding-top: 25px;
+  display: flex;
+  
+}
+
+.top-post > img {
+    width: 585px;
+    height: 387px;
+  
+}
+
+
+.top-post-details {
+  width: 35%;
+  margin-top: 30px;
+  margin-left: 45px;
+}
+
+
+.bio {
+      margin-top: 20px;
+    display: flex;
+}
+
+
+.bio > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+
+
+
+                      
+
+.post-details > h3 {
+  font-weight: 600;
+    margin: 10px 0;
+    font-size: 1.3rem;
+}
+
+.post-details > h6 {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+
+
+.other-posts {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-bottom: 30%;
+}
+
+
+
+.other-post > img {
+  width: 100%;
+  }
+
+
+.other-post   {
+  width: 30%;
+  height: 100%;
+
+}
